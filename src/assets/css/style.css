@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  background-color: rgb(164, 209, 239);
+  text-align: center;
+  padding: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.container .title {
+  display: block;
+  line-height: 1.2rem;
+  width: 100%;
+  height: 2rem;
+  padding: 0.1rem;
+  margin: 0.5rem 0;
+  font-size: inherit;
+}
+.container .content {
+  width: 100%;
+  height: 20rem;
+  margin: 0.5rem 0;
+  font-size: inherit;
+  padding: 0.5rem;
+}
+.container .score-container {
+  margin: 0.5rem 0;
+}
+.container .score-container select {
+  width: 80%;
+  height: 2rem;
+}
+.container .save {
+  width: 100%;
+  height: 3rem;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*# sourceMappingURL=style.css.map */
