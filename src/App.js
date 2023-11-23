@@ -9,7 +9,7 @@ function App() {
                     <input className="title" />
                     <textarea className="content" />
                     <div className="score-container">
-                        <span>오늘의 감정점수 : </span>
+                        <div>오늘의 감정점수 : </div>
                         <select>
                             <option>1</option>
                             <option>2</option>

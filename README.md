@@ -10,3 +10,18 @@ npx sass --watch scss파일경로 css파일경로
 -- 예제
 npx sass --watch src/assets/scss/style.scss src/assets/css/style.css
 ```
+
+3. minify하는 방법
+
+```
+sass --watch --style=compressed src/assets/scss/style.scss src/assets/css/style.css
+```
+
+4. 변수를 사용하는 방법
+
+-   $key : value
+
+```
+$my-width: 40px;
+width: $my-width;
+```
