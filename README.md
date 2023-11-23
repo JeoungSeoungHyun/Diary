@@ -8,5 +8,5 @@
 ```
 npx sass --watch scss파일경로 css파일경로
 -- 예제
-npx sass src/assets/scss/style.scss src/assets/css/style.css
+npx sass --watch src/assets/scss/style.scss src/assets/css/style.css
 ```
